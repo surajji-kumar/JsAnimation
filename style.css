@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy",'Poppins', sans-serif;
+}
+html , body{
+   width: 100%;
+   height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #000; */
+}
+#back{
+    
+    width: 100%;
+    height: 100vh;
+}
+#back img{
+    width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.front{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #000000d8; */
+}
+#woringarea{
+    position: relative;
+    margin:0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+   
+}
+#nav{
+    pointer-events: all;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nleft{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+ 
+    #nright{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+ 
+#nleft #logo{
+    transform: rotate(-12deg);
+   color: #fff;
+   font-family: 'Freehand', cursive;
+   scale: 1.5;
+   text-transform: capitalize;
+
+}
+#nav a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    /* letter-spacin g: 1px; */
+}
+#hero{
+    /* padding: 0px 0px; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0% , -50%);
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    /* height: 100px; */
+    color: #fff;
+}
+#heroleft{
+  width: 50%;
+    /* height: 100px; */
+    /* background-color: yellow; */
+}
+#heroleft .elem{
+    position: relative;
+    /* background-color: #000; */
+    height : 9vw;
+    overflow: hidden;
+}
+#heroleft .elem h1:nth-child(1){
+    top: 0;
+    left: 0;
+}
+
+#heroleft .elem h1{
+    line-height: 0.9;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-family: "kajiro";
+    font-weight: 100;
+    font-size: 11vw;
+
+}
+#heroleft button{
+    cursor: pointer;
+    pointer-events: all;
+    padding: 0.5vw 3vw;
+    font-size: 2vw;
+  margin-top: 2vw;
+  font-weight: 100;
+    letter-spacing: .18vw;
+    font-family: "kajiro";
+    /* color: #fff; */
+}
+#heroright{
+   width: 25%;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   color: #fff;
+}
+#heroright p:nth-child(1){
+    text-align: center;
+}
+#heroright p{
+    font-size: 14px;
+    font-weight: 300;
+    text-align:right;
+}
+#imgdiv{
+    width: 100%;
+    height: 170px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background: url('https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zml0bmVzcyUyMGdpcmx8ZW58MHx8MHx8fDA%3D&w=600');
+    background-size:cover;
+}
+#heroright p:nth-child(3){
+    margin-bottom: 50px;
+
+}
